@@ -21,3 +21,6 @@ sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flat
 sudo gnome-extensions enable ding@rastersoft.com
 
 sudo dnf upgrade -y
+
+sh load_set.sh
+sh screen_set.sh
