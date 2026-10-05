@@ -4,7 +4,7 @@ sudo dnf install \
 
 sudo dnf makecache
 
-sudo dnf install -y curl gnome-software gnome-software-plugin-flatpak vim git fastfetch ffmpeg flatpak gnome-tweaks qbittorrent gnome-shell-extension-desktop-icons-ng gcc g++ git-filter-repo python3 python3-pip gnome-shell-extension-manager printer-driver-escpr pkg-config escputil
+sudo dnf install -y curl gnome-software vim git fastfetch ffmpeg flatpak gnome-tweaks qbittorrent gcc g++ git-filter-repo python3 python3-pip printer-driver-escpr pkg-config escputil
 
 sudo dnf makecache
 
@@ -17,8 +17,7 @@ sudo dnf remove firefox gnome-calendar gnome-connections gnome-contacts evolutio
 sudo dnf autoremove -y
 
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
-sudo gnome-extensions enable ding@rastersoft.com
+sudo flatpak install com.mattjakeman.ExtensionManager
 
 sudo dnf upgrade -y
 

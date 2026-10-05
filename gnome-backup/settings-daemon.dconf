@@ -1,4 +1,5 @@
 [plugins/color]
+night-light-last-coordinates=(49.980400000000003, 18.953800000000001)
 night-light-schedule-automatic=false
 
 [plugins/media-keys]
@@ -13,7 +14,7 @@ www=['<Control><Alt>w']
 
 [plugins/media-keys/custom-keybindings/custom0]
 binding='<Control><Alt>t'
-command='gnome-terminal'
+command='ptyxis'
 name='terinal'
 
 [plugins/power]

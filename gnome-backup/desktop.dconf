@@ -22,10 +22,11 @@ name='suse-yast.directory'
 translate=true
 
 [background]
+color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/desktop-base/homeworld-theme/wallpaper/gnome-background.xml'
-picture-uri-dark='file:///usr/share/desktop-base/homeworld-theme/wallpaper/gnome-background.xml'
-primary-color='#ffffff'
+picture-uri='file:///usr/share/backgrounds/gnome/tubes-l.jxl'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/tubes-d.jxl'
+primary-color='#000000'
 secondary-color='#000000'
 
 [break-reminders/eyesight]
@@ -43,6 +44,7 @@ show-weekdate=false
 automatic-timezone=true
 
 [input-sources]
+current=uint32 0
 sources=[('xkb', 'pl')]
 
 [interface]
@@ -53,9 +55,10 @@ color-scheme='prefer-dark'
 enable-hot-corners=false
 gtk-enable-primary-paste=false
 icon-theme='Adwaita'
+toolkit-accessibility=false
 
 [notifications]
-application-children=['org-gnome-software', 'gnome-printers-panel', 'brave-browser', 'org-gnome-nautilus', 'im-riot-riot', 'org-qbittorrent-qbittorrent', 'org-gnome-baobab', 'gimp', 'libreoffice-writer', 'steam', 'org-gnome-terminal', 'com-heroicgameslauncher-hgl', 'clion-clion']
+application-children=['org-gnome-software', 'gnome-printers-panel', 'brave-browser', 'org-gnome-nautilus', 'im-riot-riot', 'org-qbittorrent-qbittorrent', 'org-gnome-baobab', 'gimp', 'libreoffice-writer', 'steam', 'org-gnome-terminal', 'com-heroicgameslauncher-hgl', 'clion-clion', 'com-microsoft-vscode', 'org-gnome-ptyxis']
 
 [notifications/application/brave-browser]
 application-id='brave-browser.desktop'
@@ -65,6 +68,9 @@ application-id='clion_clion.desktop'
 
 [notifications/application/com-heroicgameslauncher-hgl]
 application-id='com.heroicgameslauncher.hgl.desktop'
+
+[notifications/application/com-microsoft-vscode]
+application-id='com.microsoft.VSCode.desktop'
 
 [notifications/application/gimp]
 application-id='gimp.desktop'
@@ -84,6 +90,9 @@ application-id='org.gnome.baobab.desktop'
 [notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
+[notifications/application/org-gnome-ptyxis]
+application-id='org.gnome.Ptyxis.desktop'
+
 [notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
 
@@ -102,10 +111,14 @@ numlock-state=true
 [peripherals/touchpad]
 accel-profile='flat'
 
+[privacy]
+report-technical-problems=false
+
 [screensaver]
+color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/desktop-base/homeworld-theme/wallpaper/gnome-background.xml'
-primary-color='#ffffff'
+picture-uri='file:///usr/share/backgrounds/gnome/tubes-l.jxl'
+primary-color='#000000'
 secondary-color='#000000'
 
 [search-providers]
