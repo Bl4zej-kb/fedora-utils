@@ -1,0 +1,5 @@
+[/]
+workspaces-only-on-primary=false
+
+[wayland/keybindings]
+restore-shortcuts=@as []

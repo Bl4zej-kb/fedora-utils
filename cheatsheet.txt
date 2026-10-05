@@ -1,0 +1,21 @@
+ps aux - wszytskie procesy
+df -h - miejsce na dysku
+man [komenda] - o komendzie
+
+dconf dump /org/gnome/ > gnome-settings.conf
+
+dconf load /org/gnome/ < gnome-settings.conf
+
+**APT**
+`dpkg -L <pakiet>` – pokazuje wszystkie pliki zainstalowane przez pakiet.
+`command -v <program>` – pokazuje ścieżkę do uruchamianego programu.
+`dpkg -S <plik>` – pokazuje, który pakiet zainstalował dany plik.
+
+**Flatpak**
+`flatpak info --show-location <aplikacja>` – pokazuje katalog, w którym znajduje się aplikacja Flatpak.
+
+**Snap**
+`/snap/` – główna lokalizacja zamontowanych aplikacji Snap.
+`/var/snap/` – dane aplikacji Snap.
+`/var/lib/snapd/snaps/` – pliki `.snap` zainstalowanych aplikacji.
+

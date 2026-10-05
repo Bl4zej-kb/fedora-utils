@@ -1,0 +1,17 @@
+[icon-view]
+default-zoom-level='medium'
+
+[list-view]
+default-zoom-level='small'
+use-tree-view=true
+
+[preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+show-delete-permanently=true
+
+[window-state]
+initial-size=(1144, 800)
+initial-size-file-chooser=(890, 550)
+maximized=true

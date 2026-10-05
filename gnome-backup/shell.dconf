@@ -1,0 +1,35 @@
+[/]
+disabled-extensions=['wack-lockscreen-clock@rinzler69-wastaken.github.com']
+enabled-extensions=['ding@rastersoft.com', 'add-to-desktop@tommimon.github.com', 'advanced-alt-tab@G-dH.github.com']
+favorite-apps=['brave-browser.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Calculator.desktop', 'clion_clion.desktop', 'rider_rider.desktop', 'steam.desktop', 'im.riot.Riot.desktop', 'org.prismlauncher.PrismLauncher.desktop', 'spotify_spotify.desktop', 'io.github.CyberTimon.RapidRAW.desktop', 'gimp.desktop', 'com.obsproject.Studio.desktop', 'com.heroicgameslauncher.hgl.desktop', 'com.microsoft.VSCode.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='48.7'
+
+[app-switcher]
+current-workspace-only=true
+
+[extensions/advanced-alt-tab-window-switcher]
+switcher-popup-hover-select=true
+switcher-popup-interactive-indicators=true
+switcher-popup-preview-selected=2
+switcher-popup-show-if-no-win=true
+switcher-popup-start-search=true
+switcher-popup-wrap=true
+
+[extensions/ding]
+check-x11wayland=true
+
+[extensions/wack-lockscreen-clock]
+lockscreen-mode='wack'
+
+[keybindings]
+focus-active-notification=@as []
+show-screenshot-ui=['<Shift><Super>s']
+toggle-application-view=@as []
+
+[weather]
+automatic-location=true
+locations=[<(uint32 2, <('Katowice-Pyrzowice', 'EPKT', false, [(0.87673705510072075, 0.33219432847848984)], @a(dd) [])>)>]
+
+[world-clocks]
+locations=@av []

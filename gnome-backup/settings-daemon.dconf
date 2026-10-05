@@ -1,0 +1,22 @@
+[plugins/color]
+night-light-schedule-automatic=false
+
+[plugins/media-keys]
+calculator=['<Control><Alt>c']
+control-center=['<Super>i']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+help=@as []
+home=['<Control><Alt>h']
+reboot=['<Control><Alt>r']
+shutdown=['<Control><Alt>s']
+www=['<Control><Alt>w']
+
+[plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='gnome-terminal'
+name='terinal'
+
+[plugins/power]
+idle-dim=false
+power-button-action='interactive'
+sleep-inactive-ac-type='nothing'

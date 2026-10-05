@@ -1,0 +1,14 @@
+[/]
+accuracy=99
+base=10
+button-mode='advanced'
+number-format='fixed'
+refresh-interval=86400
+show-thousands=true
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-maximized=true
+window-size=(700, 616)
